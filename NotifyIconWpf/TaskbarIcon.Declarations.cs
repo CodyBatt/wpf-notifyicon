@@ -237,7 +237,7 @@ namespace Hardcodet.Wpf.TaskbarNotification
     /// WPF internally uses the dependency property system and bypasses the
     /// <see cref="IconSource"/> property wrapper, updates of the property's value
     /// should be handled here.
-    /// </summary
+    /// </summary>
     /// <param name="e">Provides information about the updated property.</param>
     private void OnIconSourcePropertyChanged(DependencyPropertyChangedEventArgs e)
     {
@@ -297,7 +297,7 @@ namespace Hardcodet.Wpf.TaskbarNotification
     /// WPF internally uses the dependency property system and bypasses the
     /// <see cref="ToolTipText"/> property wrapper, updates of the property's value
     /// should be handled here.
-    /// </summary
+    /// </summary>
     /// <param name="e">Provides information about the updated property.</param>
     private void OnToolTipTextPropertyChanged(DependencyPropertyChangedEventArgs e)
     {
@@ -361,7 +361,7 @@ namespace Hardcodet.Wpf.TaskbarNotification
     /// WPF internally uses the dependency property system and bypasses the
     /// <see cref="TrayToolTip"/> property wrapper, updates of the property's value
     /// should be handled here.
-    /// </summary
+    /// </summary>
     /// <param name="e">Provides information about the updated property.</param>
     private void OnTrayToolTipPropertyChanged(DependencyPropertyChangedEventArgs e)
     {
@@ -435,7 +435,7 @@ namespace Hardcodet.Wpf.TaskbarNotification
     /// WPF internally uses the dependency property system and bypasses the
     /// <see cref="TrayPopup"/> property wrapper, updates of the property's value
     /// should be handled here.
-    /// </summary
+    /// </summary>
     /// <param name="e">Provides information about the updated property.</param>
     private void OnTrayPopupPropertyChanged(DependencyPropertyChangedEventArgs e)
     {
@@ -538,7 +538,7 @@ namespace Hardcodet.Wpf.TaskbarNotification
     /// WPF internally uses the dependency property system and bypasses the
     /// <see cref="Visibility"/> property wrapper, updates of the property's value
     /// should be handled here.
-    /// </summary
+    /// </summary>
     /// <param name="e">Provides information about the updated property.</param>
     private void OnVisibilityPropertyChanged(DependencyPropertyChangedEventArgs e)
     {
@@ -602,7 +602,7 @@ namespace Hardcodet.Wpf.TaskbarNotification
     /// WPF internally uses the dependency property system and bypasses the
     /// <see cref="FrameworkElement.DataContext"/> property wrapper, updates of the property's value
     /// should be handled here.
-    /// </summary
+    /// </summary>
     /// <param name="e">Provides information about the updated property.</param>
     private void OnDataContextPropertyChanged(DependencyPropertyChangedEventArgs e)
     {

@@ -7,6 +7,7 @@
         <local:ToVisibilityConverter x:Key="ToVisibilityConverter"></local:ToVisibilityConverter>
         <tb:TaskbarIcon x:Key="TrayIcon" 
                         IconSource="/Assets/motherboard.ico" 
+                        ToolTipText="ToolTip Text!"
                         Visibility="{Binding InTray, Converter={StaticResource ToVisibilityConverter}}" 
                         LeftClickCommand="{Binding ShowApplication}" 
                         MenuActivation="RightClick">

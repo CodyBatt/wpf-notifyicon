@@ -35,10 +35,8 @@ namespace Hardcodet.Wpf.TaskbarNotification.Interop
     /// and <see cref="NotifyIconData.VersionOrTimeout"/>.
     /// </summary>
     Info = 0x10,
-    
-    /// <summary>
-    /// Internal identifier is set. Reserved, thus commented out.
-    /// </summary>
+
+    // Internal identifier is set. Reserved, thus commented out.
     //Guid = 0x20,
 
     /// <summary>
